@@ -1,5 +1,5 @@
 # ev1527Decoder
-this project decodes ev1527 messageS by using rxb13 receiver.
+this project decodes ev1527 messages by using rxb13 receiverfor stm32f103 microcontroller.
 
 
 
