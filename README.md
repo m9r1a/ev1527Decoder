@@ -1,6 +1,6 @@
 # ev1527Decoder
-this project decode ev1527 message by using rxb13 receiver.
-this for hardware specification please review ev1527DecoderF103.ioc
+#this project decode ev1527 message by using rxb13 receiver.
+#this for hardware specification please review ev1527DecoderF103.ioc
 project specification :
 use timer2 at 36mhz clock. if you want to use another timer please modify these two function in ev1527 library:
 uint16_t ev1527_GetTick(void) ; void ev1527_ResetTick(void);
