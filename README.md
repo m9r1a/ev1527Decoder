@@ -9,7 +9,7 @@ for hardware specifications please review ev1527DecoderF103.ioc
 project specifications :
 
 
-use timer2 at 36mhz clock. if you want to use another timer please modify these two function in ev1527 library:
+use timer2 at 36mhz clock. if you want to use another timer please modify these two functions in ev1527 library:
 
 
 uint16_t ev1527_GetTick(void) ; void ev1527_ResetTick(void);
